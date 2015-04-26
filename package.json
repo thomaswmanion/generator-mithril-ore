@@ -1,0 +1,33 @@
+{
+  "name": "generator-mithril-ore",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "thomaswmanion/generator-mithril-ore",
+  "author": {
+    "name": "Tom Manion",
+    "email": "thomaswmanion@gmail.com",
+    "url": "https://github.com/thomaswmanion"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "underscore": "^1.8.3",
+    "underscore.inflections": "^0.2.1",
+    "underscore.string": "^3.0.3",
+    "yeoman-generator": "^0.19.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
