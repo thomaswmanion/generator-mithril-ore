@@ -51,6 +51,8 @@ module.exports = yeoman.generators.Base.extend({
     projectfiles: function () {
       this.fs.copy(this.templatePath('editorconfig'), this.destinationPath('.editorconfig'));
       this.fs.copy(this.templatePath('jshintrc'), this.destinationPath('.jshintrc'));
+      this.fs.copy(this.templatePath('.jscsrc'), this.destinationPath('.jscsrc'));
+      this.fs.copy(this.templatePath('.jshintignore'), this.destinationPath('.jshintignore'));
     },
 
     gulp: function() {

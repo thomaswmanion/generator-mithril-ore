@@ -10,5 +10,6 @@ gulp.task('lint', function () {
         .pipe(plumber())
         .pipe(jscs())
         .pipe(jshint('.jshintrc'))
-        .pipe(jshint.reporter(stylish)); // Console output
+        .pipe(jshint.reporter(stylish)) // Console output
+		.pipe(jshint.reporter('fail'));
 });

@@ -1,3 +1,3 @@
 var gulp = require('gulp');
 
-gulp.task('serve', ['scripts', 'wiredep','styles', 'connect']);
+gulp.task('serve', ['lint', 'scripts', 'wiredep','styles', 'browser-sync']);

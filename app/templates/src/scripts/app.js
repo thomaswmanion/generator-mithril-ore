@@ -1,4 +1,5 @@
 'use strict';
+
 var m = require('mithril');
 var routes = require('routes');
 
